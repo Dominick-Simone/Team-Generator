@@ -95,7 +95,7 @@ function engineerQuestion() {
             <h5 class="card-title">Engineer</h5>
             <h6 class="card-text">Employee ID: ${employeeid}</h6>
             <h6 class="card-text">Email: ${email}</h6>
-            <h6 class="card-text">Github:<a href="https://github.com/${github}" class="card-link">${github}</a></h6>
+            <h6 class="card-text">Github:<a href="https://github.com/${github}" class="link-dark card-link">${github}</a></h6>
         </div>
     </div>`
         return  output;
